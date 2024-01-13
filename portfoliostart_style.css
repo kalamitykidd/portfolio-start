@@ -1,0 +1,27 @@
+/* Style sheet for portfolio start in GitHub assignment. 
+	Author: Regan Kidd
+	Date:01/12/2024
+		
+	Filename: portfoliostart_style.css
+		
+*/
+		
+		
+/* menu styles */
+.navbar {
+  width: 100%;
+  background-color: CadetBlue;
+  
+}
+
+/* HTML and Body styles */
+
+html {
+  
+   font-family: Courier New, Serif;
+   
+}
+
+body {
+	
+}
