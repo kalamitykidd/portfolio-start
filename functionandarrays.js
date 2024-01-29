@@ -20,7 +20,7 @@ function lottoPicks (powerBall, luckyNumbers) {
     }
 
 
-// Step 6: Create a for-in loop to iterate through the array indexes
+// Create a for-in loop to iterate through the array indexes
 for (let index in luckyNumbers) {
-    processNumber(lotto, luckyNumbers[index]);
+    lottoPicks(lotto, luckyNumbers[index]);
 }
