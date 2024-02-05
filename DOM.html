@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<!-- DOM manipulations and events assignment
+		Regan Kidd
+		2/4/2024
+		dom.html
+		Instructions:  
+	1. In your portfolio site, create a new page named dom.html
+    2. In the body of your html, create a new <div> element to use as a container for new paragraphs that we'll add with JS
+    3. Utilize css to put an outline around the container div, set the width to 80% or less, and center it on the page.
+    4. You may want to temporarily put a paragraph into the div and check the site to ensure that the spacing is correct.
+	Be sure to remove any tests that you place in the container before moving on.
+    5. Create a new variable, and set it equal to the container div
+    6. Utilize a loop to do the following with each iteration:
+        a. Create a new <p> element, with some text inside of it
+        b. Place that <p> element inside of the container div
+        c. Repeat this 5 times.
+    7. Create a new function that changes the background color of the body to one color, 
+	and the background color of the container div to another. Please be sure to also set 
+	the text color of the container div to something that contrasts against the background color, 
+	if black does not.
+    8. Create a button and set its onclick attribute to the function from step 7.
+    9. Push your changes to github, then submit a link to the dom.html page to this assignment. 
+-->	
+<html>
+	<head>
+		<link href="portfoliostart_style.css" rel="stylesheet" />
+		<link rel="DOM stylesheet" href="dom_style.css">
+		<script src="domscript.js"></script>
+		<title> DOM Manipulations & Events </title>
+	</head>
+
+		<body>
+			<header>
+				<div class="navbar">
+					<a href="index.html">Home</a>
+					<a href="arrays.html">Arrays</a>
+					<a href="DOM.html">DOM</a>
+				</div>
+			<div class="paraDiv">
+				<p></p>
+				<input type="button" id="add" value="Add to DOM">
+			</div>
+		</body>
+</html> 

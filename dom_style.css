@@ -1,0 +1,14 @@
+/* CSS for dom.html assignment
+*/
+
+
+div.paraDiv {
+	border: 4px solid;
+	border-width: 80%;
+	outline:4px inset cornsilk;
+	outline-width: 60%;
+	margin:0 auto;
+	padding: 20px;
+	text-align:center;
+
+}
