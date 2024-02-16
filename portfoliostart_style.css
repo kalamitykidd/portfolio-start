@@ -7,18 +7,71 @@
 */
 		
 		
-/* menu styles */
-.navbar {
-  width: 100%;
-  background-color: CadetBlue;
-  
+body {
+  height: 125vh;
+  background-image: url('tiger.jpg');
+  background-size: cover;
+  font-family: Georgia, serif;
+font-size: 1.4em;
+  margin-top: 90px;
+  padding: 20px;
 }
 
-/* HTML and Body styles */
+main {
+  color: black;
+}
 
-html {
-  
-   font-family: Courier New, Serif;
-   
+header {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 35px 0 black;
+}
+
+header * {
+  display: inline;
+}
+
+header li {
+  margin: 20px;
+}
+
+header li a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+background-color: #55515b;
+}
+
+.content  {
+
+border: 3px solid #000000;
+background-color:black;
+opacity: .6;
+
+color: white;
+text-align: center;
+ box-shadow: 0 0 35px 0 black;
+ position: fixed;
+ top: 50%;
+ left: 50%;
+ transform: translate( -50%, -50%);
+
+ padding: 25px;
+}
+
+#footer {
+position: fixed;
+bottom: 0;
+width: 100%;
+height: 2.5rem;
+color:white;
 }
 
