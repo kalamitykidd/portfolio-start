@@ -1,8 +1,8 @@
-class Name {
+class Student {
     constructor(){
-        this.firstname = Regan;
-        this.lastname = Kidd;
+        this.name = 'Regan';
+        
     }
 }
-
-console.log(Name)
+ const Student1 = new Student();
+console.log(Student1.name);

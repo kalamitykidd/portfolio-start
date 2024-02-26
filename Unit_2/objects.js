@@ -1,11 +1,19 @@
-var human1 = new Name();
-human1.firstname = Tom;
-human1.lastname = Jones;
 
-var human2 = new Name();
-human2.firstname = Lisa;
-human2.lastname = Landry;
 
-console.log(human1);
-console.log(human2);
+const Student2 = new Student("")
+Student2.name = 'Tom';
+    
+
+
+
+
+const Student3 = new Student("")
+Student3.name = 'Lisa';
+    
+
+
+
+
+console.log(Student2.name);
+console.log(Student3.name);
 
